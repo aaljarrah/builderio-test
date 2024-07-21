@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RouterModule } from '@angular/router';
 import { BuilderModule } from '@builder.io/angular';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
